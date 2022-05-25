@@ -4,8 +4,37 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>[Name] [Surname] - Recruitment task</title>
+    <title>Kinga Szacun - Recruitment task</title>
+    <link rel="stylesheet" href="dist/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,900;1,100;1,900&display=swap" rel="stylesheet"> 
 </head>
 <body>
-
+    <div class="container">
+        <div class="row">
+            <div class="w-50 img-box">
+                <img src="images/sean-o-KMn4VEeEPR8-unsplash_1_s6zmfh_c_scale,w_1400.jpg">
+            </div>
+            <div class="w-50 text-box">
+                <h1>Lorem Ipsum</h1>
+                    <p>Infinitely scalable, feature-rich and cloud-native data management and protection for modern and legacy infrastructures and SaaS platforms, managed via a single app with no hardware required.</p>
+                    <button class="btn-open-modal" id="btn-open">Button</button>
+            </div>
+        </div> 
+        <div class="modal-box" id="modal">
+            <div class="modal-content">
+                <div class="w-50 w-80 text-box">
+                    <h1>Alert!</h1>
+                        <div class="counter">
+                            <p><span id="result">0 </span></p>
+                            <button id="btn-clear">Clear</button>
+                        </div>
+                </div>
+                <div class="w-50 w-20">
+                    <span class="btn-close-modal">&times;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dist/all.js"></script>
 </body>
+
