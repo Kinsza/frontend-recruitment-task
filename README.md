@@ -1,4 +1,4 @@
-# Zadanie rekrutacyjne GravityGlobal na frontend developera
+# Zadanie rekrutacyjne
 
 ## Informacje wstępne
 Zadanie jest przeznaczone na każdy poziom umiejętności developera, dzieli się na poszczególne zadania,
